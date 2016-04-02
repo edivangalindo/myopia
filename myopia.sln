@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myopia.Domain", "myopia.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myopia.Common", "myopia.Common\myopia.Common.csproj", "{FC3C6F0A-F6C6-4988-B64C-A479EBF1BF5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myopia.Infraestructure", "myopia.Infraestructure\myopia.Infraestructure.csproj", "{5B844E8A-799C-4913-A3AD-CB93AD32E5BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC3C6F0A-F6C6-4988-B64C-A479EBF1BF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC3C6F0A-F6C6-4988-B64C-A479EBF1BF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC3C6F0A-F6C6-4988-B64C-A479EBF1BF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B844E8A-799C-4913-A3AD-CB93AD32E5BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B844E8A-799C-4913-A3AD-CB93AD32E5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B844E8A-799C-4913-A3AD-CB93AD32E5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B844E8A-799C-4913-A3AD-CB93AD32E5BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

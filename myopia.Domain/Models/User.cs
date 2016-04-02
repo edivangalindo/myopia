@@ -32,7 +32,7 @@ namespace myopia.Domain
 
         #endregion
 
-        #region Metodos
+        #region Métodos
 
         public void SetPassword(string password, string confirmPassword)
         {
@@ -59,7 +59,7 @@ namespace myopia.Domain
 
         public void Validate()
         {
-            AssertionConcern.AssertArgumentLength(this.Name, 3, 250, Errors.InvalidUserEmail);
+            AssertionConcern.AssertArgumentLength(this.Name, 3, 60, Errors.InvalidUserName);
             EmailAssertionConcern.AssertIsValid(this.Email);
             PasswordAssertionConcern.AssertIsValid(this.Password);
         }
